@@ -1,6 +1,7 @@
 import React from "react";
 import { format } from "date-fns";
 import ExampleComponent from "./ExampleComponent";
+import TestComponet from "./TestComponent";
 
 // Add your code own within the return statement
 function App() {
@@ -14,7 +15,8 @@ function App() {
         self-contained chunks of JSX.
       </p>
       <ExampleComponent />
-    </div>
+      <TestComponet />
+          </div>
   );
 }
 
